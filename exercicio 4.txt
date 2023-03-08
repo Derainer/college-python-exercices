@@ -1,0 +1,13 @@
+#inicio
+#perguntar Rua, número, bairro, cidade, cep, estado e pais
+rua = input("Insira sua rua ")
+numero = int(input("insira o numero da sua residencia" ))
+bairro = input("insira seu bairro ")
+# segunda parte
+cep = float(input("insira seu cep "))
+estado = input("insira seu estado ")
+pais = input("insira seu pais ")
+# terceira parte
+print(rua, numero, bairro)
+print(cep, estado, pais)
+#fim

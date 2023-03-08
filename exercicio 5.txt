@@ -1,0 +1,13 @@
+#inicio
+# a soma de todos os 5 números
+n1 = int(input("Digite um número "))
+n2 = int(input("Digite outro número "))
+n3 = int(input("Digite outro número "))
+n4 = int(input("Digite outro número "))
+n5 = int(input("Digite outro número "))
+soma = (n1+n2+n3+n4+n5)
+print(soma)
+# o produto de todos os números
+produto = (n1*n2*n3*n4*n5)
+print(produto)
+#fim

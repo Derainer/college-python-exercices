@@ -1,0 +1,14 @@
+# inicio
+# grau a vale 33% e grau b vale 67%
+# grau a atividade pratica vale 45% e atividade teorica vale 55%
+# grau b prova em laboratorio vale 60% teste teorico vale 20% e trabalho extraclasse vale 20%
+atividade_pratica = float(input("insira nota da atividade prática "))
+atividade_teorica = float(input("insira a nota da atividade teórica "))
+grau_a = atividade_pratica * 0.45 + atividade_teorica * 0.65
+atividade_laboratorio = float(input("insira a nota da atividade de laboratório "))
+atividade_testeteorico = float(input("insira a nota do teste teórico "))
+atividade_trabalhoextra = float(input("insira a nota do trabalho extra classe "))
+grau_b = atividade_laboratorio * 0.6 + atividade_testeteorico * 0.2 + atividade_trabalhoextra * 0.2
+nota_final = grau_a * 0.33 + grau_b * 0.67
+print(nota_final)
+#fim

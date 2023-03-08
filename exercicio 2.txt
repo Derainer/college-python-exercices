@@ -1,0 +1,6 @@
+# inicio
+# solicito nome
+nome = input("Insira seu Nome ")
+idade = int(input("Insira sua idade "))
+print(nome, idade)
+# fim

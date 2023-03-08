@@ -1,0 +1,8 @@
+#inicio
+#solicitar nome do usuário
+nome = input("insira seu nome ")
+print(nome)
+#solicitar altura do usuário
+altura = float(input("insira sua altura "))
+print(altura)
+#fim

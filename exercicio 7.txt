@@ -1,0 +1,9 @@
+# inicio
+# trabalho 10%
+# prova 60%
+# teste 30%
+nota_trabalho = float(input("insira a nota do trabalho "))
+nota_prova = float(input("insira a nota da prova "))
+nota_teste = float(input("insira a nota do teste "))
+nota_final = nota_trabalho * 0.1 + nota_prova * 0.6 + nota_teste * 0.3
+print(nota_final)
